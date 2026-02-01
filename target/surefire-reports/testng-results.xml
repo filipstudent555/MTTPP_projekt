@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-01T15:16:30 CET" name="SauceDemo UI Suite" finished-at="2026-02-01T15:16:49 CET" duration-ms="18823">
+    <groups>
+    </groups>
+    <test started-at="2026-02-01T15:16:30 CET" name="Testovi" finished-at="2026-02-01T15:16:49 CET" duration-ms="18823">
+      <class name="com.filip.tests.SauceDemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:30 CET" name="setUp" finished-at="2026-02-01T15:16:32 CET" duration-ms="2327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_validLogin_shouldOpenInventory()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:32 CET" name="TC01_validLogin_shouldOpenInventory" finished-at="2026-02-01T15:16:34 CET" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_validLogin_shouldOpenInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:34 CET" name="tearDown" finished-at="2026-02-01T15:16:34 CET" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:34 CET" name="setUp" finished-at="2026-02-01T15:16:35 CET" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02_invalidPassword_shouldShowError()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:35 CET" name="TC02_invalidPassword_shouldShowError" finished-at="2026-02-01T15:16:36 CET" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_invalidPassword_shouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:36 CET" name="tearDown" finished-at="2026-02-01T15:16:37 CET" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:37 CET" name="setUp" finished-at="2026-02-01T15:16:38 CET" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC03_lockedOutUser_shouldBeBlocked()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:38 CET" name="TC03_lockedOutUser_shouldBeBlocked" finished-at="2026-02-01T15:16:39 CET" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_lockedOutUser_shouldBeBlocked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:39 CET" name="tearDown" finished-at="2026-02-01T15:16:39 CET" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:39 CET" name="setUp" finished-at="2026-02-01T15:16:40 CET" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC04_addBackpackToCart_shouldShowBadge1()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:40 CET" name="TC04_addBackpackToCart_shouldShowBadge1" finished-at="2026-02-01T15:16:42 CET" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_addBackpackToCart_shouldShowBadge1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:42 CET" name="tearDown" finished-at="2026-02-01T15:16:42 CET" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:42 CET" name="setUp" finished-at="2026-02-01T15:16:43 CET" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC05_checkoutWithoutFirstName_shouldShowValidationError()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:43 CET" name="TC05_checkoutWithoutFirstName_shouldShowValidationError" finished-at="2026-02-01T15:16:49 CET" duration-ms="5812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_checkoutWithoutFirstName_shouldShowValidationError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.filip.tests.SauceDemoTests@479d31f3]" started-at="2026-02-01T15:16:49 CET" name="tearDown" finished-at="2026-02-01T15:16:49 CET" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.filip.tests.SauceDemoTests -->
+    </test> <!-- Testovi -->
+  </suite> <!-- SauceDemo UI Suite -->
+</testng-results>

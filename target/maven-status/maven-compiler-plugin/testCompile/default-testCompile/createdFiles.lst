@@ -1,0 +1,7 @@
+com\filip\tests\Proba.class
+com\filip\tests\SauceDemoTests.class
+com\filip\base\BaseTest.class
+com\filip\pages\CartPage.class
+com\filip\pages\InventoryPage.class
+com\filip\pages\CheckoutStepOnePage.class
+com\filip\pages\LoginPage.class
