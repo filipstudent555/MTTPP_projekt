@@ -20,13 +20,13 @@ Testira se javna demo web aplikacija: https://www.saucedemo.com/
   - TestNG konfiguracija
 
 ## Testni slučajevi (5)
-1. **TC01_validLogin_shouldOpenInventory**  
+1. **validLogin**  
    - provjera uspješnog logina
-2. **TC02_invalidPassword_shouldShowError**  
+2. **invalidPassword**  
    - provjera error poruke kod pogrešne lozinke
-3. **TC03_lockedOutUser_shouldBeBlocked**  
+3. **lockedOutUser**  
    - provjera blokiranog (locked) korisnika
-4. **TC04_addBackpackToCart_shouldShowBadge1**  
+4. **addToCart**  
    - dodavanje proizvoda u košaricu i provjera badge-a "1"
-5. **TC05_checkoutWithoutFirstName_shouldShowValidationError**  
+5. **checkoutWithoutFirstName**  
    - checkout bez obaveznog polja "First Name" i provjera validacijske poruke
